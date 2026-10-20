@@ -1,0 +1,9 @@
+item	value
+outcome	GCST90271815 mean cortical thickness n=32488
+rs2228145_outcome_beta	-0.0119313
+rs2228145_outcome_se	0.00799077
+rs2228145_outcome_p	0.135402
+beta_exposure_sd	1.035
+wald_theta	-0.011527826086956523
+wald_se	0.007720550724637681
+wald_p	0.13540179887725246

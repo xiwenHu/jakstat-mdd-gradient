@@ -1,0 +1,124 @@
+{
+  "spatial": {
+    "raw_IL6R_rho_0.315": {
+      "r": 0.315,
+      "n": 339,
+      "t_equiv": 6.093,
+      "BF01_BIC": 0.0,
+      "BF10_JZS": 2338299.98,
+      "BF01_JZS": 0.0
+    },
+    "partial_PC1_5_rho_0.005": {
+      "r": 0.005,
+      "n": 339,
+      "t_equiv": 0.092,
+      "BF01_BIC": 18.33,
+      "BF10_JZS": 0.06,
+      "BF01_JZS": 16.42
+    },
+    "partial_PC1_only_rho_0.179": {
+      "r": 0.179,
+      "n": 339,
+      "t_equiv": 3.34,
+      "BF01_BIC": 0.07,
+      "BF10_JZS": 13.99,
+      "BF01_JZS": 0.07
+    }
+  },
+  "mr_gwas": {
+    "MR_globalCT_W_0.010": {
+      "beta": -0.0119313,
+      "se": 0.00799077,
+      "W": 0.0001,
+      "BF01_Wakefield": 0.811
+    },
+    "MR_globalCT_W_0.020": {
+      "beta": -0.0119313,
+      "se": 0.00799077,
+      "W": 0.0004,
+      "BF01_Wakefield": 1.031
+    },
+    "MR_globalCT_W_0.040": {
+      "beta": -0.0119313,
+      "se": 0.00799077,
+      "W": 0.0016,
+      "BF01_Wakefield": 1.748
+    },
+    "MR_globalCT_W_0.080": {
+      "beta": -0.0119313,
+      "se": 0.00799077,
+      "W": 0.0064,
+      "BF01_Wakefield": 3.337
+    },
+    "PGC_MDD_rs2228145_W_0.02": {
+      "beta_logOR": -0.01106,
+      "se": 0.00921,
+      "W": 0.0004,
+      "BF01_Wakefield": 1.319
+    },
+    "PGC_MDD_rs2228145_W_0.05": {
+      "beta_logOR": -0.01106,
+      "se": 0.00921,
+      "W": 0.0025000000000000005,
+      "BF01_Wakefield": 2.749
+    },
+    "PGC_MDD_rs2228145_W_0.10": {
+      "beta_logOR": -0.01106,
+      "se": 0.00921,
+      "W": 0.010000000000000002,
+      "BF01_Wakefield": 5.335
+    }
+  },
+  "de_summary": {
+    "MDD_vs_HC": {
+      "n_tests": 39,
+      "BF01_JZS_median": 4.79,
+      "BF01_JZS_range": [
+        0.55,
+        5.61
+      ],
+      "n_BF01_ge_3": 26,
+      "n_BF01_ge_10": 0,
+      "max_BF10_JZS": 1.82,
+      "gene_max_BF10": {
+        "region": "PFC",
+        "gene": "STAT1",
+        "t": 2.307
+      }
+    },
+    "SCZ_vs_HC": {
+      "n_tests": 39,
+      "n_BF10_JZS_ge_3": 5,
+      "max_BF10_JZS": 33.36,
+      "top3": [
+        {
+          "region": "PFC",
+          "gene": "IL6ST",
+          "t": 3.631,
+          "BF10_JZS": 33.362
+        },
+        {
+          "region": "HIP",
+          "gene": "JAK1",
+          "t": -3.263,
+          "BF10_JZS": 13.714
+        },
+        {
+          "region": "PFC",
+          "gene": "STAT3",
+          "t": 3.236,
+          "BF10_JZS": 13.011
+        }
+      ]
+    }
+  },
+  "mr_panel": {
+    "ventralFrontal": {
+      "beta": -0.0203,
+      "se": 0.00773,
+      "BF01_W_0.010": 0.189,
+      "BF01_W_0.020": 0.138,
+      "BF01_W_0.040": 0.19
+    }
+  }
+}

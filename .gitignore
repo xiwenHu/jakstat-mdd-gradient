@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large raw inputs (third-party; do not redistribute)
+*.npy.gz
+*.bin.gz
+# keep the two matched-null .npy files tracked if small enough; otherwise un-comment:
+# *.npy
+
+# Scratch
+scratch/
+*.log

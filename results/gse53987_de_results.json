@@ -1,0 +1,57 @@
+{
+  "dataset": "GSE53987 (PMID 31123247), Affymetrix HG-U133 Plus 2 (GPL570), RMA",
+  "design": "PFC(BA46)/HIP/STR x SCZ/BD/MDD/HC, postmortem human brain",
+  "genes": [
+    "IL6R",
+    "IL6ST",
+    "JAK1",
+    "JAK2",
+    "JAK3",
+    "TYK2",
+    "STAT1",
+    "STAT3",
+    "STAT4",
+    "STAT5A",
+    "STAT5B",
+    "STAT6",
+    "SOCS1"
+  ],
+  "n_probes_per_gene": {
+    "IL6R": 3,
+    "IL6ST": 7,
+    "JAK1": 5,
+    "JAK2": 3,
+    "JAK3": 4,
+    "TYK2": 1,
+    "STAT1": 6,
+    "STAT3": 4,
+    "STAT4": 1,
+    "STAT5A": 1,
+    "STAT5B": 5,
+    "STAT6": 2,
+    "SOCS1": 4
+  },
+  "primary_contrast": "MDD vs HC (per region)",
+  "n_tests_primary": 39,
+  "group_region_counts": {
+    "HIP": {
+      "BD": 18,
+      "HC": 18,
+      "MDD": 17,
+      "SCZ": 15
+    },
+    "PFC": {
+      "BD": 17,
+      "HC": 19,
+      "MDD": 17,
+      "SCZ": 15
+    },
+    "STR": {
+      "BD": 17,
+      "HC": 18,
+      "MDD": 16,
+      "SCZ": 18
+    }
+  },
+  "results_file": "E:\\workbuddy\\2026-10-20-11-06-57\\outputs\\data\\gse53987\\gse53987_de_results.tsv"
+}
