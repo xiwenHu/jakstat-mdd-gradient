@@ -4,6 +4,7 @@
 > ✅ = 已通过 PubMed/期刊页面逐字核实（含标题、期刊、年卷页、DOI）
 > ⚠️ = 沿用已知标准引文、建议投稿前用 EndNote/Zotero 终核
 > 【verify】 = 尚未独立核实，投稿前必须补验
+> **2026-10-21 终核完成**：3/5/10/12/16/20/26 全部处置；稿件正文已删除第 20 条并重编号为 1–32（本文档保留原始编号以便追溯），对应关系见文末。
 
 ---
 
@@ -13,11 +14,11 @@
 
 2. ✅ Askari M, Jahangard L, Zamani A, et al. Interleukin-6 signaling pathway involved in major depressive disorder: SSRI regulates IL-6 pathway. *Turk J Biochem*. 2019;44(6):831–839. doi:10.1515/tjb-2019-0010.
 
-3. 【verify】IL-6 → SERT 转运体 / STAT3 机制原文（5-HT 再摄取的炎症调控）。候选：Zhu C-B, Blakely R D, Hewlett W A. The proinflammatory cytokines interleukin-1beta and tumor necrosis factor-alpha activate serotonin transporters. *Neuropsychopharmacology* 2006;31(10):2121–2131.（若走 STAT3 直接通路则另择 Ramamoorthy 系列；成稿前锁定一条并核对卷页）
+3. ✅ Zhu CB, Blakely RD, Hewlett WA. The proinflammatory cytokines interleukin-1beta and tumor necrosis factor-alpha activate serotonin transporters. *Neuropsychopharmacology*. 2006;31(10):2121–2131. doi:10.1038/sj.npp.1301029.（2026-10-21 锁定，PMID 16452991；IL-1β/TNF-α 经 p38 MAPK 激活 SERT——本条走 SERT/p38 路线，未用 Ramamoorthy 系列）
 
 4. ✅ Franzen AD, Lam TT, Williams KR, et al. Cerebrospinal fluid proteome evaluation in major depressive disorder by mass spectrometry. *BMC Psychiatry*. 2020;20:481. doi:10.1186/s12888-020-02874-9.（PMID 32998701；初稿中 "PMC7528485" 系误植，正确 PMCID 为 PMC7528485 所载另一文，以本条 DOI 为准）
 
-5. 【verify】HMGB1/STAT3/p65 轴，应激抑郁模型（初稿标记 PMC11081938）。成稿前取原文作者-年-卷页。
+5. ✅ Xu K, Wang M, Wang H, et al. HMGB1/STAT3/p65 axis drives microglial activation and autophagy exert a crucial role in chronic stress-induced major depressive disorder. *J Adv Res*. 2024;59:79–96. doi:10.1016/j.jare.2023.06.003.（2026-10-21 锁定，PMID 37321346，PMCID PMC11081938；期刊为 *Journal of Advanced Research*，非 J Affect Disord）
 
 6. NIH R01MH140180 (Felger JC). JAK signalling as a mechanism of inflammation-related reward and motor circuit deficits in depression (baricitinib). 资助声明，非期刊引文。
 
@@ -35,12 +36,12 @@
 9. ✅ Li J, Seidlitz J, Suckling J, et al. Cortical structural differences in major depressive disorder correlate with cell type-specific transcriptional signatures. *Nat Commun*. 2021;12:1647. doi:10.1038/s41467-021-21943-5.
    > **重要更正**：初稿误写 *Mol Psychiatry* 2021。实为 *Nature Communications* 2021;12:1647（2021-03-12）。PMID 33712584。
 
-10. 【verify】Sha Z, Banihashemi L, et al. 灰质体积–转录组关联（MDD）。成稿前补全标题/期刊/卷页。
+10. ✅ Sha Z, Banihashemi L. Integrative omics analysis identifies differential biological pathways that are associated with regional grey matter volume changes in major depressive disorder. *Psychol Med*. 2022;52(5):924–935. doi:10.1017/S0033291720002676.（2026-10-21 锁定，PMID 32723400；仅两位作者，去 et al.）
 
 11. ✅ Giacomel A, Powell TR, Duarte RRR, et al. Transcriptome-informed brain cartography of polygenic risk and association with brain structure in major psychiatric disorders. *Mol Psychiatry*. 2026;31(7):3965–3977. doi:10.1038/s41380-026-03497-4.
    > GEDAR 项目。
 
-12. 【verify】快感缺失皮层厚度转录组底物，*J Psychiatr Res* 2025。成稿前补全作者-卷页。
+12. ✅ Liang S, Gao Y, Palaniyappan L, et al. Transcriptional substrates of cortical thickness alterations in anhedonia of major depressive disorder. *J Affect Disord*. 2025;379:118–126. doi:10.1016/j.jad.2025.03.003.（2026-10-21 锁定，PMID 40044088；⚠️ 期刊更正：原记 *J Psychiatr Res* 有误，实为 *J Affect Disord*）
 
 ---
 
@@ -53,7 +54,7 @@
 
 15. ⚠️ Wray NR, Ripke S, Mattheisen M, et al. Genome-wide association analyses identify 44 risk variants and refine the genetic architecture of major depression. *Nat Genet*. 2018;50(5):668–681. doi:10.1038/s41588-018-0090-7.（PGC，102 棵 SNP 阈值沿用原设定）
 
-16. 【verify】Makowski C, et al. 皮层表面积/厚度 GWAS（GCST90271815）。成稿前核对 *PNAS* 2023 卷页与作者。
+16. ✅ Makowski C, Wang H, Srinivasan A, et al. Larger cerebral cortex is genetically correlated with greater frontal area and dorsal thickness. *Proc Natl Acad Sci U S A*. 2023;120(11):e2214834120. doi:10.1073/pnas.2214834120.（2026-10-21 锁定，PMID 36893272；GCST90271815 = global mean thickness, n=32,488）
 
 17. GWAS Catalog. NHGRI-EBI. GCST90271790–GCST90271814 等 accession。数据库条目，按投稿期刊的数据库引文格式著录（含访问日期）。
 
@@ -68,7 +69,7 @@
    > 人脑细胞面板来源（brainrnaseq.org 人数据）。小鼠面板为：Zhang Y, Chen K, Sloan SA, et al. An RNA-sequencing transcriptome and splicing database of glia, neurons, and vascular cells of the cerebral cortex. *J Neurosci*. 2014;34(36):11929–11947. doi:10.1523/JNEUROSCI.1860-14.2014.
    > **更正**：初稿写 "Zhang 2016 brainrnaseq.org" 不完整，实为 Neuron 两篇（2014 小鼠 / 2016 人）共同支撑 brainrnaseq.org。
 
-20. 【verify】Lake/McKenzie/Marques 等脑 RNA-seq 补充面板。若仅用 brainrnaseq.org 本条可省略；若叠加其他面板须补全。
+20. ✅（已处置：删除）Lake/McKenzie/Marques 等脑 RNA-seq 补充面板。仓库 `test2_celltype_spatial.py` 与 README 证实仅用 brainrnaseq.org 标志面板（Zhang 2016 Neuron + Zhang 2014 J Neurosci，即第 19 条），未叠加其他面板 → 按占位规则**本条删除**，稿件编号 21–33 顺次前移为 20–32。
 
 ---
 
@@ -86,10 +87,10 @@
 24. ✅ Vogel JW, Alexander-Bloch AF, Wagstyl K, et al. Deciphering the functional specialization of whole-brain spatiomolecular gradients in the adult brain. *Proc Natl Acad Sci U S A*. 2024;121(25):e2219137121. doi:10.1073/pnas.2219137121.
    > **更正**：初稿写 "Spatiomolecular gradients (PNAS 2024 / Cell)" 不完整，实为 Vogel 2024 PNAS。
 
-25. ✅ Schenetti J. A significant enrichment that is not: spatial nulls, co-expression, and the imaging transcriptomics of EEG alpha-power genetics. *bioRxiv* 2025. doi:[补 doi 号，按 bioRxiv 格式]。
+25. ✅ Schenetti J. A significant enrichment that is not: spatial nulls, co-expression, and the imaging transcriptomics of EEG alpha-power genetics. *bioRxiv* [preprint]. Posted 2026-07-23. doi:10.64898/2026.07.23.740331.（2026-10-21 锁定；⚠️ 年份更正：原记 2025 有误，预印本实际 2026-07-23 发布）
    > 方法学同道（"necessary but not sufficient"）；非期刊正式发表，投稿时按 preprint 规范著录并注明访问日期。
 
-26. 【verify】"Transcriptomic decoding of surface-based imaging phenotypes." *Nat Commun* 2025。成稿前补全作者-卷页-DOI。
+26. ✅ Ecker C, Pretzsch CM, Leyhausen J, et al. Transcriptomic decoding of surface-based imaging phenotypes and its application to pharmacotranscriptomics. *Nat Commun*. 2025;16(1):6727. doi:10.1038/s41467-025-61927-3.（2026-10-21 锁定，PMID 40691132；论断核实：原文明确插值→平滑度↑→"inflation of false-positives"）
 
 ---
 
@@ -116,6 +117,7 @@
 ## 引文格式化备忘
 
 - **投稿目标期刊格式**：若投 *Translational Psychiatry* / *Molecular Psychiatry* / *Psychological Medicine*，用 Vancouver（作者≤6 全列，>6 列前 6 加 et al.）；若投 *NeuroImage: Reports* / *PLOS ONE*，用带 DOI 的 Vancouver 变体。本文档按 Vancouver 核心字段写定，投稿时按目标期刊的 author-number rule 微调 et al. 阈值。
-- **【verify】共 6 条**（第 3、5、10、12、16、20、26 条中的期刊条目）：建议一次性在 PubMed 检索标题词核对，或用 EndNote "Find Reference Updates"。**投稿前不可留空**。
+- **【verify】已清零（2026-10-21）**：第 3、5、10、12、16、26 条已 PubMed 锁定；第 20 条删除。剩余 ⚠️ 条目（1/13/14/15/18/21/22/27–32）字段已完整，仅待格式微调（et al. 阈值按目标期刊）。
+- **稿件新号映射**（旧→新）：1–19 不变；20 删除；21→20, 22→21, 23→22, 24→23, 25→24, 26→25, 27→26, 28→27, 29→28, 30→29, 31→30, 32→31, 33→32。
 - **引用纪律**（与 P0 定位一致）：引设计不引人；批方法不批人。Anderson 2020 / Li 2021 / Giacomel 2026 一律作"同设计案例"引，不作"靶子"引；Markello / Burt / Dear 2024 / Vogel 2024 作"方法学盟友"引。
 - **Dear 2024 = 初稿第 16 + 20 条的合并**；Rouder 2009 期刊名更正为 *Psychon Bull Rev*。

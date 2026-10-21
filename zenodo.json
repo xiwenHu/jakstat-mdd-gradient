@@ -1,0 +1,31 @@
+{
+  "title": "JAK-STAT x MDD imaging-transcriptomics: a multi-modal evaluation with positive controls (analysis code and derived results)",
+  "upload_type": "software",
+  "description": "Code, derived result tables and figures accompanying the manuscript 'The cortical principal gradient accounts for reported transcriptomic-imaging convergence of JAK-STAT signaling in major depressive disorder: a multi-modal evaluation with positive controls'. Convergent nulls across spatial (matched gene-set nulls, PC1-PC5 gradient control), genetic (competitive MAGMA, cis-MR at IL6R rs2228145) and postmortem (GSE53987, schizophrenia positive control) layers, with Bayes factors and minimum-reporting guidance for imaging-transcriptomic enrichment claims.",
+  "creators": [
+    {
+      "name": "[作者姓名, 姓, 名]",
+      "affiliation": "[单位]",
+      "orcid": "[ORCID, 0000-0000-0000-0000]"
+    }
+  ],
+  "keywords": [
+    "imaging transcriptomics",
+    "Allen Human Brain Atlas",
+    "cortical thickness",
+    "major depressive disorder",
+    "JAK-STAT",
+    "spatial autocorrelation",
+    "null models",
+    "Mendelian randomization",
+    "Bayes factor"
+  ],
+  "license": "MIT",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "[论文 DOI，接收后回填]",
+      "resource_type": "publication-article"
+    }
+  ]
+}

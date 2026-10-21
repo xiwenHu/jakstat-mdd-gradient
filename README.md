@@ -106,6 +106,20 @@ AHBA-derived expression data and ENIGMA summary statistics are third-party; plea
 
 If you use this code or these derived results, please cite the manuscript (see `docs/`) and the primary data sources listed above.
 
+```bibtex
+@software{jakstat_mdd_gradient_2026,
+  author    = {[作者姓名]},
+  title     = {JAK-STAT x MDD imaging-transcriptomics: analysis code and derived results},
+  year      = {2026},
+  version   = {v1.0.0},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.[回填]},
+  url       = {https://github.com/[用户名]/jakstat-mdd-gradient}
+}
+```
+
+Release/DOI procedure: see `RELEASE.md`.
+
 ## License
 
 MIT — see `LICENSE`.

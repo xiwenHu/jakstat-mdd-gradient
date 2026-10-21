@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code or these derived results, please cite the accompanying manuscript."
+type: software
+title: "JAK-STAT x MDD imaging-transcriptomics: analysis code and derived results"
+authors:
+  - family-names: "[姓]"
+    given-names: "[名]"
+    affiliation: "[单位]"
+    orcid: "https://orcid.org/[ORCID]"
+version: "1.0.0"
+date-released: "2026-10-21"
+license: MIT
+repository-code: "https://github.com/[用户名]/jakstat-mdd-gradient"
+abstract: >-
+  Code, derived result tables and figures demonstrating that reported
+  transcriptomic-imaging convergence of JAK-STAT signaling in major
+  depressive disorder is accounted for by the cortical principal gradient.
+  Convergent nulls across spatial, genetic and postmortem layers, with
+  schizophrenia positive controls and Bayes factors.
+keywords:
+  - imaging transcriptomics
+  - cortical principal gradient
+  - major depressive disorder
+  - JAK-STAT
+  - null models
+  - Bayes factor
