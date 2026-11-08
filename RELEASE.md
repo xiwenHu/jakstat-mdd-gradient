@@ -1,5 +1,7 @@
 # 发布与推送步骤（GitHub → Zenodo DOI）
 
+> ⚠️ **本文件为简版，已被 `outputs/TP投稿材料/09_GitHub与Zenodo发布操作手册.md` 取代**（含实测环境、5 项发布前清理、PAT 认证、Zenodo `.zenodo.json` 命名坑、完整回填清单）。**以 09 手册为准。**
+>
 > 一次性操作，约 10 分钟。完成后把 DOI 回填稿件 Declarations 与 cover letter。
 
 ## A. 推送 GitHub
@@ -7,14 +9,21 @@
 ```bash
 cd repo_jakstat_mdd
 
-# 1) 确认 git 身份（当前为占位身份 jakstat-mdd <authors@example.com>，推送前务必换成真实身份）
+# 1) 改 git 身份 + 【必须】重写已有的 7 个 commit 的作者
+#    （当前全部为占位 jakstat-mdd <authors@example.com>；只改 config 不影响历史，
+#     Zenodo 会从 GitHub contributor 统计取作者，占位会污染 DOI 页面）
 git config user.name "你的真实姓名"
-git config user.email "你的邮箱"
+git config user.email "你的真实邮箱"
+git filter-branch --env-filter '
+  export GIT_AUTHOR_NAME="你的真实姓名"; export GIT_AUTHOR_EMAIL="你的真实邮箱"
+  export GIT_COMMITTER_NAME="你的真实姓名"; export GIT_COMMITTER_EMAIL="你的真实邮箱"
+' -- --all
+git log --format='%an <%ae>' | sort | uniq -c   # 自检：不应再出现 authors@example.com
 
 # 2) 在 github.com 新建空仓库（不要勾选 README/LICENSE），建议名：jakstat-mdd-gradient
-#    然后：
+#    认证：GitHub 已废除密码登录，需 Fine-grained PAT（Contents: read/write），见 09 手册 §3 步骤 4
 git remote add origin https://github.com/<你的用户名>/jakstat-mdd-gradient.git
-git push -u origin main
+git push -u origin master        # ← 本地分支是 master，不是 main
 ```
 
 ## B. 挂 Zenodo 拿 DOI
