@@ -32,11 +32,11 @@ date-released: "2026-10-21"
 license: MIT
 repository-code: "https://github.com/xiwenHu/jakstat-mdd-gradient"
 abstract: >-
-  Code, derived result tables and figures demonstrating that reported
-  transcriptomic-imaging convergence of JAK-STAT signaling in major
-  depressive disorder is accounted for by the cortical principal gradient.
-  Convergent nulls across spatial, genetic and postmortem layers, with
-  schizophrenia positive controls and Bayes factors.
+  Code, derived result tables and figures accompanying a multi-modal
+  evaluation of imaging-transcriptomic convergence in JAK-STAT signalling
+  and major depressive disorder. Convergent nulls across spatial, genetic
+  and postmortem layers, with schizophrenia positive controls and Bayes
+  factors.
 keywords:
   - imaging transcriptomics
   - cortical principal gradient

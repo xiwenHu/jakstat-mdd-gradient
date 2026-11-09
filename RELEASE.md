@@ -9,9 +9,9 @@
 ```bash
 cd repo_jakstat_mdd
 
-# 1) 改 git 身份 + 【必须】重写已有的 7 个 commit 的作者
-#    （当前全部为占位 jakstat-mdd <authors@example.com>；只改 config 不影响历史，
-#     Zenodo 会从 GitHub contributor 统计取作者，占位会污染 DOI 页面）
+# 1) 改 git 身份 + 重写已有 commit 的作者 —— 已完成（2026-11-09）
+#    （10 个 commit 的作者/提交者均为 Xiwen Hu <inzaghuxw@163.com>；
+#     以下命令仅作存档，无需重跑。只改 config 不影响历史，故当初用 filter-branch）
 git config user.name "你的真实姓名"
 git config user.email "你的真实邮箱"
 git filter-branch --env-filter '
@@ -21,17 +21,23 @@ git filter-branch --env-filter '
 git log --format='%an <%ae>' | sort | uniq -c   # 自检：不应再出现 authors@example.com
 
 # 2) 在 github.com 新建空仓库（不要勾选 README/LICENSE），建议名：jakstat-mdd-gradient
-#    认证：GitHub 已废除密码登录，需 Fine-grained PAT（Contents: read/write），见 09 手册 §3 步骤 4
-git remote add origin https://github.com/xiwenHu/jakstat-mdd-gradient.git
-git push -u origin master        # ← 本地分支是 master，不是 main
+#    认证：优先 GCM 浏览器登录（本机已装 Git Credential Manager 2.9.0）；
+#          Fine-grained PAT 仅作兜底，见 09 手册 §3 步骤 4
+# remote 已配置（2026-11-09），无需重跑下行：
+# git remote add origin https://github.com/xiwenHu/jakstat-mdd-gradient.git
+git push -u origin master        # ← 本地分支是 master，不是 main；已 push（2026-11-09）
 ```
 
 ## B. 挂 Zenodo 拿 DOI
 
-1. 打开 https://zenodo.org → 登录 → **GitHub** 标签 → 找到 `jakstat-mdd-gradient` → **On**（开启存档）
-2. 回 GitHub：**Releases** → **Draft a new release** → tag `v1.0.0` → 发布
-3. Zenodo 自动归档并生成 DOI（10.5281/zenodo.xxxxxxx）
-4. 把 DOI 填回两处：
+1. https://zenodo.org → 用 GitHub 账号登录 → 右上角 profile menu → **GitHub** → **Sync now**
+   → 找到 `jakstat-mdd-gradient` → 开关拨到 **On** → 刷新页面确认已连接
+2. 回 GitHub：**Releases** → **Draft a new release** → tag `v1.0.0` → **Publish release**
+3. Zenodo **立即** ingest 并发布记录，同时生成 DOI（10.5281/zenodo.xxxxxxx）。
+   **没有 draft 复核环节**：Publish 后归档文件不可再改，务必先完成仓库清理。
+4. 记录页检查作者 8 位 / 标题 / license(MIT) / 关键词；
+   **External resources → Archived in** 看 Software Heritage 归档状态
+5. 把 DOI 填回两处：
    - `zenodo.json` 的 `related_identifiers.identifier`（论文 DOI，接收后再填）
    - 本文件顶部 + README 的 Citation 段
 

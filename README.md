@@ -4,7 +4,7 @@ Code, derived results, and figures for the manuscript:
 
 > **A multi-modal evaluation of imaging-transcriptomic convergence in JAK-STAT signalling and major depressive disorder**
 
-This repository accompanies a *methods-first* re-evaluation of imaging-transcriptomic associations between JAK-STAT signaling and major depressive disorder (MDD) cortical morphometry. The headline result is **not** a positive association: the observed spatial correspondence (ρ = 0.315) is **fully absorbed by the cortical principal gradient** (PC1–PC5 partial Spearman ρ = 0.005, BF₀₁ = 16.4), and is not specific to the JAK-STAT gene set under matched random-set nulls (empirical *P* = 0.985). Genetic (cis-MR at *IL6R* rs2228145) and postmortem (GSE53987) layers are reported alongside **positive controls** (schizophrenia, same cohort) and explicit **minimum detectable effect (MDE)** bounds so that null results are interpretable.
+This repository accompanies a *methods-first* re-evaluation of imaging-transcriptomic associations between JAK-STAT signalling and major depressive disorder (MDD) cortical morphometry. The headline result is **not** a positive association: the observed spatial correspondence (ρ = 0.315) is **fully absorbed by the cortical principal gradient** (PC1–PC5 partial Spearman ρ = 0.005, BF₀₁ = 16.4), and is not specific to the JAK-STAT gene set under matched random-set nulls (empirical *P* = 0.985). Genetic (cis-MR at *IL6R* rs2228145) and postmortem (GSE53987) layers are reported alongside **positive controls** (schizophrenia, same cohort) and explicit **minimum detectable effect (MDE)** bounds so that null results are interpretable.
 
 ## What is in here
 
@@ -51,7 +51,7 @@ repo_jakstat_mdd/
 | Postmortem MDD (39 tests) | FDR hits | 0/39; BF₀₁ median 4.8 (0.55–5.61) |
 | Postmortem SCZ positive control (39 tests) | FDR hits | 3/39 (IL6ST/PFC, STAT3/PFC, JAK1/HIP); BF₁₀ up to 33.4 |
 
-The full numeric trace is in `results/`; the manuscript is available as a preprint (see Citation).
+The full numeric trace is in `results/`.
 
 ## Reproduction
 
@@ -103,7 +103,7 @@ AHBA-derived expression data and ENIGMA summary statistics are third-party; plea
 
 ## Citation
 
-If you use this code or these derived results, please cite the manuscript preprint and the primary data sources listed above.
+If you use this code or these derived results, please cite the accompanying manuscript and the primary data sources listed above.
 
 ```bibtex
 @software{jakstat_mdd_gradient_2026,
