@@ -114,7 +114,7 @@ If you use this code or these derived results, please cite the manuscript (see `
   version   = {v1.0.0},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.[回填]},
-  url       = {https://github.com/[用户名]/jakstat-mdd-gradient}
+  url       = {https://github.com/xiwenHu/jakstat-mdd-gradient}
 }
 ```
 

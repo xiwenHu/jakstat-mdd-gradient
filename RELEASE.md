@@ -22,7 +22,7 @@ git log --format='%an <%ae>' | sort | uniq -c   # 自检：不应再出现 autho
 
 # 2) 在 github.com 新建空仓库（不要勾选 README/LICENSE），建议名：jakstat-mdd-gradient
 #    认证：GitHub 已废除密码登录，需 Fine-grained PAT（Contents: read/write），见 09 手册 §3 步骤 4
-git remote add origin https://github.com/<你的用户名>/jakstat-mdd-gradient.git
+git remote add origin https://github.com/xiwenHu/jakstat-mdd-gradient.git
 git push -u origin master        # ← 本地分支是 master，不是 main
 ```
 

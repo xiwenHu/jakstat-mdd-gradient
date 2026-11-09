@@ -10,7 +10,7 @@ authors:
 version: "1.0.0"
 date-released: "2026-10-21"
 license: MIT
-repository-code: "https://github.com/[用户名]/jakstat-mdd-gradient"
+repository-code: "https://github.com/xiwenHu/jakstat-mdd-gradient"
 abstract: >-
   Code, derived result tables and figures demonstrating that reported
   transcriptomic-imaging convergence of JAK-STAT signaling in major
