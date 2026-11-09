@@ -1,12 +1,39 @@
 {
   "title": "JAK-STAT x MDD imaging-transcriptomics: a multi-modal evaluation with positive controls (analysis code and derived results)",
   "upload_type": "software",
-  "description": "Code, derived result tables and figures accompanying the manuscript 'The cortical principal gradient accounts for reported transcriptomic-imaging convergence of JAK-STAT signaling in major depressive disorder: a multi-modal evaluation with positive controls'. Convergent nulls across spatial (matched gene-set nulls, PC1-PC5 gradient control), genetic (competitive MAGMA, cis-MR at IL6R rs2228145) and postmortem (GSE53987, schizophrenia positive control) layers, with Bayes factors and minimum-reporting guidance for imaging-transcriptomic enrichment claims.",
+  "description": "Code, derived result tables and figures accompanying the manuscript 'A multi-modal evaluation of imaging-transcriptomic convergence in JAK-STAT signalling and major depressive disorder'. Convergent nulls across spatial (matched gene-set nulls, PC1-PC5 gradient control), genetic (competitive MAGMA, cis-MR at IL6R rs2228145) and postmortem (GSE53987, schizophrenia positive control) layers, with Bayes factors and minimum-reporting guidance for imaging-transcriptomic enrichment claims.",
   "creators": [
     {
-      "name": "[作者姓名, 姓, 名]",
-      "affiliation": "[单位]",
-      "orcid": "[ORCID, 0000-0000-0000-0000]"
+      "name": "Hu, Xiwen",
+      "affiliation": "Department of Psychiatry, Affiliated Mental Health Center and Hangzhou Seventh People's Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China"
+    },
+    {
+      "name": "Yin, Xiaowen",
+      "affiliation": "Department of Psychiatry, Affiliated Mental Health Center and Hangzhou Seventh People's Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China"
+    },
+    {
+      "name": "Wang, Shengdong",
+      "affiliation": "Department of Psychiatry, Affiliated Mental Health Center and Hangzhou Seventh People's Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China"
+    },
+    {
+      "name": "Dong, Jiezheng",
+      "affiliation": "Department of Psychiatry, Affiliated Mental Health Center and Hangzhou Seventh People's Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China"
+    },
+    {
+      "name": "Ju, Xuan",
+      "affiliation": "Department of Psychiatry, Affiliated Mental Health Center and Hangzhou Seventh People's Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China"
+    },
+    {
+      "name": "Chen, Song",
+      "affiliation": "Department of Psychiatry, Affiliated Mental Health Center and Hangzhou Seventh People's Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China"
+    },
+    {
+      "name": "Tan, Zhonglin",
+      "affiliation": "Department of Psychiatry, Affiliated Mental Health Center and Hangzhou Seventh People's Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China"
+    },
+    {
+      "name": "Lu, Lingna",
+      "affiliation": "Zhejiang Academy of Traditional Chinese Medicine, Department of Clinical Laboratory, Tongde Hospital of Zhejiang Province, Hangzhou, Zhejiang, China"
     }
   ],
   "keywords": [

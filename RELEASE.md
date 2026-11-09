@@ -39,7 +39,7 @@ git push -u origin master        # ← 本地分支是 master，不是 main
 
 | 文件 | 位置 | 替换 |
 |---|---|---|
-| `docs/路径1_全文初稿.md` | Declarations | `[**补 GitHub URL**]` ×2 → 仓库 URL |
+| `outputs/路径1_全文初稿.md` (仓库外母版) | Declarations | 两处仓库 URL 占位 → 仓库 URL |
 | `outputs/TP投稿材料/01_TP_cover_letter.md` | Declarations 段 | `[GitHub/Zenodo URL]` → Zenodo DOI 链接 |
 | README | Citation 段 | BibTeX 的 `url`/`doi` 占位 |
 

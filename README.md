@@ -2,7 +2,7 @@
 
 Code, derived results, and figures for the manuscript:
 
-> **The cortical principal gradient accounts for reported transcriptomic–imaging convergence of JAK-STAT signaling in major depressive disorder: a multi-modal evaluation with positive controls**
+> **A multi-modal evaluation of imaging-transcriptomic convergence in JAK-STAT signalling and major depressive disorder**
 
 This repository accompanies a *methods-first* re-evaluation of imaging-transcriptomic associations between JAK-STAT signaling and major depressive disorder (MDD) cortical morphometry. The headline result is **not** a positive association: the observed spatial correspondence (ρ = 0.315) is **fully absorbed by the cortical principal gradient** (PC1–PC5 partial Spearman ρ = 0.005, BF₀₁ = 16.4), and is not specific to the JAK-STAT gene set under matched random-set nulls (empirical *P* = 0.985). Genetic (cis-MR at *IL6R* rs2228145) and postmortem (GSE53987) layers are reported alongside **positive controls** (schizophrenia, same cohort) and explicit **minimum detectable effect (MDE)** bounds so that null results are interpretable.
 
@@ -25,7 +25,7 @@ repo_jakstat_mdd/
 │   ├── run_de_gse53987.py               # postmortem DE (MDD / SCZ / BD), OLS + covariates
 │   ├── gse53987_addendum.py             # multi-probe rule, best-probe flag, FDR13/FDR39
 │   ├── compute_bayes_factors.py         # JZS / BIC / Wakefield ABF battery
-│   └── make_figures.py                  # Fig 1–3 (300 DPI, PNG/PDF/TIFF)
+│   └── make_figures.py                  # Fig 1–3 (300 DPI, PNG/PDF; TIFF generated locally)
 ├── results/                  ← derived tables (all numbers quoted in the manuscript)
 │   ├── bayes_results.json
 │   ├── de_bf_all.csv
@@ -35,8 +35,7 @@ repo_jakstat_mdd/
 │   ├── test2_celltype_spatial.csv / .md
 │   ├── sign_check/           (partial_control_PC1.csv, sign_check_13genes.csv, sign_check_per_parcel.csv)
 │   └── test4/                (matched-null CSVs, per-gene grid, Table-1 reconciliation)
-├── figures/                  ← Fig 1–3 in PNG + PDF + TIFF (300 DPI) + fig1C underlying data
-└── docs/                     ← full manuscript draft, submission strategy, reference list
+├── figures/                  ← Fig 1–3 in PNG + PDF (300 DPI) + fig1C underlying data
 ```
 
 ## Key numbers (for cross-checking)
@@ -52,7 +51,7 @@ repo_jakstat_mdd/
 | Postmortem MDD (39 tests) | FDR hits | 0/39; BF₀₁ median 4.8 (0.55–5.61) |
 | Postmortem SCZ positive control (39 tests) | FDR hits | 3/39 (IL6ST/PFC, STAT3/PFC, JAK1/HIP); BF₁₀ up to 33.4 |
 
-The full numeric trace is in `results/` and the manuscript (`docs/路径1_全文初稿.md`, English IMRaD).
+The full numeric trace is in `results/`; the manuscript is available as a preprint (see Citation).
 
 ## Reproduction
 
@@ -79,7 +78,7 @@ python scripts/compute_bayes_factors.py         # → bayes_results.json, de_bf_
 python scripts/make_figures.py                  # → figures/Fig{1,2,3}_*.{png,pdf,tiff}
 ```
 
-Random seeds are fixed inside the null-distribution scripts (`numpy.random.default_rng(20240517)` where applicable). The matched random gene-set procedure matches on mean expression, expression variance, and gene length; the exact matching rule is documented in the manuscript Methods and in `docs/路径1_全文初稿.md`.
+Random seeds are fixed inside the null-distribution scripts (`numpy.random.default_rng(20240517)` where applicable). The matched random gene-set procedure matches on mean expression, expression variance, and gene length; the exact matching rule is documented in the manuscript Methods.
 
 ## Data sources (not redistributed here)
 
@@ -104,16 +103,16 @@ AHBA-derived expression data and ENIGMA summary statistics are third-party; plea
 
 ## Citation
 
-If you use this code or these derived results, please cite the manuscript (see `docs/`) and the primary data sources listed above.
+If you use this code or these derived results, please cite the manuscript preprint and the primary data sources listed above.
 
 ```bibtex
 @software{jakstat_mdd_gradient_2026,
-  author    = {[作者姓名]},
+  author    = {Hu, Xiwen and Yin, Xiaowen and Wang, Shengdong and Dong, Jiezheng and Ju, Xuan and Chen, Song and Tan, Zhonglin and Lu, Lingna},
   title     = {JAK-STAT x MDD imaging-transcriptomics: analysis code and derived results},
   year      = {2026},
   version   = {v1.0.0},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.[回填]},
+  doi       = {[Zenodo DOI after first release]},
   url       = {https://github.com/xiwenHu/jakstat-mdd-gradient}
 }
 ```

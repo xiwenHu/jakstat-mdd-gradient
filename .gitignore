@@ -21,3 +21,7 @@ Thumbs.db
 # Scratch
 scratch/
 *.log
+
+# Internal working docs and journal-submission TIFFs stay local (not part of public repo)
+docs/
+*.tiff
