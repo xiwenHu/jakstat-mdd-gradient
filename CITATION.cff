@@ -28,9 +28,10 @@ authors:
     given-names: "Lingna"
     affiliation: "Zhejiang Academy of Traditional Chinese Medicine, Department of Clinical Laboratory, Tongde Hospital of Zhejiang Province, Hangzhou, Zhejiang, China"
 version: "1.0.0"
-date-released: "2026-10-21"
+date-released: "2026-11-09"
 license: MIT
 repository-code: "https://github.com/xiwenHu/jakstat-mdd-gradient"
+doi: "10.5281/zenodo.24087981"
 abstract: >-
   Code, derived result tables and figures accompanying a multi-modal
   evaluation of imaging-transcriptomic convergence in JAK-STAT signalling

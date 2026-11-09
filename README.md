@@ -112,10 +112,12 @@ If you use this code or these derived results, please cite the accompanying manu
   year      = {2026},
   version   = {v1.0.0},
   publisher = {Zenodo},
-  doi       = {[Zenodo DOI after first release]},
+  doi       = {10.5281/zenodo.24087981},
   url       = {https://github.com/xiwenHu/jakstat-mdd-gradient}
 }
 ```
+
+> Archived at Zenodo: version DOI `10.5281/zenodo.24087981` (v1.0.0, exact files); concept DOI `10.5281/zenodo.24087980` (all versions).
 
 Release/DOI procedure: see `RELEASE.md`.
 
